@@ -9,6 +9,9 @@ function writeCards(cards) {
 }
 writeCards(cards);
 
-function countDown () {
-  
+function countDown (num) {
+  let i = num;
+  while (i>num){
+    console.log()
+  }
 }
