@@ -2,7 +2,7 @@
 
 
 function writeCards(cards, event) {
-  let eventName
+  let eventName;
   let finalEvent = [];
   for(let i=0; i<cards.ligeth; i++){
     let eventName = `Thank you ${cards[i]}, for the wonderful ${event} gift!`;
