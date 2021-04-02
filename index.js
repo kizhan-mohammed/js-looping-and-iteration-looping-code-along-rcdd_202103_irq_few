@@ -1,5 +1,5 @@
 // Code your solutions in this file
-let cards= [ "Lisa", "Kaitlin", "Jan"];
+
 
 function writeCards(cards, event) {
   let finalEvent = [];
@@ -9,7 +9,7 @@ function writeCards(cards, event) {
   }
   return cards;
 }
-writeCards(cards,"surprise");
+writeCards([ "Lisa", "Kaitlin", "Jan"],"surprise");
 
 function countDown (num) {
   let i = num;
