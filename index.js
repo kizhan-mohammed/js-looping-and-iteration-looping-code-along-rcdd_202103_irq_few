@@ -2,8 +2,10 @@
 let cards= [ "Lisa", "Kaitlin", "Jan"];
 
 function writeCards(cards, event) {
+  let finalEvent = [];
   for(let i=0; i<cards.ligeth; i++){
-    console.log(`Thank you ${cards[i]}, for the wonderful ${event} gift!`)
+    let eventName = `Thank you ${cards[i]}, for the wonderful ${event} gift!`
+    finalEvent.push(eventName);
   }
   return cards;
 }
