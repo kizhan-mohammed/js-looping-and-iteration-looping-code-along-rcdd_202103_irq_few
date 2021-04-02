@@ -8,7 +8,7 @@ function writeCards(cards, event) {
     eventName = `Thank you ${cards[i]}, for the wonderful ${event} gift!`;
     finalEvent.push(eventName);
   }
-  return cards;
+  return finalEvent;
 }
 writeCards(["Lisa", "Kaitlin", "Jan"],"surprise");
 
