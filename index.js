@@ -1,5 +1,5 @@
 // Code your solutions in this file
-let cards= ( "Lisa", "Kaitlin", "Jan);
+let cards= ( "Lisa", "Kaitlin", "Jan");
 
 function writeCards(cards) {
   for(let i=0; i<cards.ligeth; i++){
