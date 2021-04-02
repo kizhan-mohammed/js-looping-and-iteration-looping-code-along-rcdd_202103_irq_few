@@ -13,7 +13,7 @@ function countDown (num) {
   let i = num;
   while (i>num){
     console.log(num);
-    i--;
+    i= i - 1;
   }
 }
 countDown (10);
