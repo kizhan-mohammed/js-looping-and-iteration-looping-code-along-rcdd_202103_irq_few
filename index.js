@@ -11,9 +11,9 @@ writeCards(cards);
 
 function countDown (num) {
   let i = num;
-  while (i>num){
-    console.log(num);
-    i= i - 1;
+  while (i>0){
+    console.log(i);
+    i--;
   }
 }
-countDown (10);
+countDown(10);
