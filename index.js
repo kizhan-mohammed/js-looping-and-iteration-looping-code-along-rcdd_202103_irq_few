@@ -1,7 +1,7 @@
 // Code your solutions in this file
 let cards= [ "Lisa", "Kaitlin", "Jan"];
 
-function writeCards(cards) {
+function writeCards(cards, event) {
   for(let i=0; i<cards.ligeth; i++){
     console.log(`Thank you ${cards[i]} for the wonderful birthday gift!`)
   }
