@@ -9,3 +9,6 @@ function writeCards(cards) {
 }
 writeCards(cards);
 
+function countDown () {
+  
+}
