@@ -9,7 +9,7 @@ function writeCards(cards, event) {
   }
   return cards;
 }
-writeCards([ "Lisa", "Kaitlin", "Jan"],"surprise");
+writeCards(["Lisa", "Kaitlin", "Jan"],"surprise");
 
 function countDown (num) {
   let i = num;
